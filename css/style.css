@@ -1,0 +1,168 @@
+body {
+	background-color: white;
+	font-family: 'Didact Gothic', sans-serif;
+	color: black;
+}
+a:link, a:visited {
+	color: brown;
+}
+#header{
+	padding:0;
+	margin:auto;
+	text-align:center;
+}
+#menu{
+	margin-top:5px;
+	margin-right:auto;
+	margin-left:5px;
+	display: inline-block;
+	float:left;
+}
+#menu ul{
+	position:relative;
+	top:-380px;
+	right:-160px;
+	display:block;
+	width: 200px;
+}
+#menu li{
+	list-style-type:none;
+	display:block;
+	min-height:20px;
+	
+	text-align:left;
+	line-height:20%;
+}	
+#slon{
+	width:390px;
+}
+div #up{
+	width:200px;
+	height:200px;
+	background:	url('/images/up.png') bottom center no-repeat;
+	background-size:200px;
+
+	position: fixed;
+	bottom: 0;
+	left:190px;
+	z-index: 101;
+}
+
+/*
+.open:after{
+	content:"&darr;";
+}
+.close:after{
+	content:"&uarr;";
+}
+*/
+	
+.small_header{
+	margin-top:5px;
+	margin-right:auto;
+	margin-left:5px;
+	float:left;
+	border:1px solid black;
+
+}
+#next_school{
+	padding:0;
+	margin:0;
+	height:auto;
+}
+#next_school img{
+/*
+	margin-top:5px;
+	margin-left:5px;
+	float:left;
+	border:1px solid black;
+*/	
+}
+#next_school p{
+/*
+	position:absolute;
+	margin-top:70px;
+	margin-left:70px;
+*/
+}
+
+#contacts{
+	display:block;
+	padding:10px;
+	margin:50px;
+	height:auto;
+	position:relative;
+	top:150px;
+}
+#contacts img{
+	margin-top:5px;
+	margin-right:auto;
+	margin-left:5px;
+	float:left;
+}
+#all{
+	width:1200px;
+	display:block;
+	margin: 0 auto;
+}
+#contacts p{
+	position:absolute;
+	margin-top:50px;
+	margin-left:50px;
+}
+#content_bg{
+	margin: auto;
+	display: inline-block;
+	background:
+		url('/images/bg/top_left.png') top left no-repeat,
+		url('/images/bg/top_right.png') top right no-repeat,
+		url('/images/bg/top_center.png') top left repeat-x,
+		url('/images/bg/bottom_left.png') bottom left no-repeat,
+		url('/images/bg/bottom_right.png') bottom right no-repeat,
+		url('/images/bg/bottom_center.png') bottom left repeat-x,
+		url('/images/bg/middle_left.png') top left repeat-y,
+		url('/images/bg/middle_right.png') top right repeat-y,
+		url('/images/bg/middle_center.png') top left repeat,
+		#FFDFB9;
+	
+}
+
+#content{
+	padding: 60px 110px;
+	min-height:460px;
+}
+
+.left-cont{
+	display: inline-block;
+	width: 50%;
+}
+
+.menu_item{
+	margin:0;
+	padding:0;
+}
+
+.img_section_header {
+	text-align: center;
+}
+
+p{
+	text-align:justify;
+}
+
+ul{
+	display:block;
+}
+
+li{
+	width:auto;
+	text-align:left;
+}
+
+p.list_item a{
+	border-bottom: 1px dashed;
+}
+
+div.list_expand{
+	display:block;
+}
